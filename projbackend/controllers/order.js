@@ -36,7 +36,7 @@ exports.getAllOrders = (req, res) => {
                 return res.status(400).json({
                     error: "No orders found in DB"
                 });
-            } 
+            }
             res.json(order);
         });
 };
